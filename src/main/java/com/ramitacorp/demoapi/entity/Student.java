@@ -5,8 +5,6 @@ import jakarta.persistence.*;
 @Entity
 @Table(name="student")
 public class Student {
-
-    // define fields
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
@@ -23,7 +21,6 @@ public class Student {
 
     // define constructors
     public Student() {
-
     }
 
     public Student(String firstName, String lastName, String email) {
