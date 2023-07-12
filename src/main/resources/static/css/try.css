@@ -1,0 +1,14 @@
+body{
+    background-color: yellow;
+}
+
+p{
+    color: red;
+    background-color: yellow;
+}
+
+.try{
+    color: red;
+    font-size: larger;
+    font-style: italic;
+}
