@@ -9,4 +9,6 @@ import java.util.List;
 @RepositoryRestResource(path = "students")
 public interface StudentRepository extends JpaRepository<Student, Integer> {
     List<Student> findByLastName(String theLastName);
+
+    List<Student> findAllByOrderByLastName();
 }
